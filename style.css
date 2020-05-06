@@ -1,0 +1,16 @@
+.avatar {
+    background-image: url("img/ryu-ready-position.gif");
+}
+
+.avatar:hover {
+    background-image: url("img/ryu-cool.gif");
+}
+
+.avatar,
+.avatar:hover {
+    height: 100%;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -14,3 +14,15 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.contacts {
+    flex-direction: column;
+}
+
+.contacts a.twitter:hover {
+    color: #4085f3;
+}
+
+.contacts a.instagram:hover {
+    color: #fd33db;
+}

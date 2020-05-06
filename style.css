@@ -1,0 +1,27 @@
+.avatar {
+    background-image: url("img/ready.gif");
+}
+
+.avatar:hover {
+    background-image: url("img/cool.gif");
+}
+
+.avatar,
+.avatar:hover {
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.contacts {
+    flex-direction: column;
+}
+
+.contacts a.twitter:hover {
+    color: #4085f3;
+}
+
+.contacts a.instagram:hover {
+    color: #fd33db;
+}

@@ -1,18 +1,17 @@
 .avatar {
-    background-image: url("img/ryu-ready-position.gif");
+    background-image: url("img/ready.gif");
 }
 
 .avatar:hover {
-    background-image: url("img/ryu-cool.gif");
+    background-image: url("img/cool.gif");
 }
 
 .avatar,
 .avatar:hover {
     height: 100%;
-    width: 300px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }
 
 .contacts {
